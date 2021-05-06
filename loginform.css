@@ -21,7 +21,7 @@ h1 {
 }
 form {
   border: 3px solid #f1f1f1;
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
 }
 input[type=text], input[type=password] {
@@ -69,4 +69,14 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }
+}
+@media screen and (min-width: 500px) {
+	form {
+		width: 60%;
+	}
+}
+@media screen and (min-width: 1200px) {
+	form {
+		width: 40%;
+	}
 }
